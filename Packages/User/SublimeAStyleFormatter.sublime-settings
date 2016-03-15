@@ -1,0 +1,18 @@
+{
+  // "autoformat_on_save": true,
+
+  // Please visit http://astyle.sourceforge.net/astyle.html for more information
+  "options_default": {
+    "indent-spaces": 2,
+    "indent-switches": true,
+    "indent-cases": true,
+    "align-pointer": "middle",
+    "max-instatement-indent": 80,
+    "break-blocks": "default",
+    "unpad-paren": true,
+    "add-brackets": true,
+    "max-code-length": 80,
+    "break-after-logical": true,
+  }
+
+}

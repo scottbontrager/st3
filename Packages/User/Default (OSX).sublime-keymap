@@ -1,0 +1,88 @@
+[
+  { "keys": ["super+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+
+  { "keys": ["super+t"], "command": "toggle_side_bar" },
+
+  { "keys": ["super+k", "super+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+
+  { "keys": ["alt+up"], "command": "scroll_lines", "args": {"amount": 10.0} },
+  { "keys": ["alt+down"], "command": "scroll_lines", "args": {"amount": -10.0} },
+
+  { "keys": ["super+left"], "command": "move_to", "args": {"to": "hardbol"} },
+  { "keys": ["super+right"], "command": "move_to", "args": {"to": "hardeol"} },
+
+  { "keys": ["ctrl+g"], "command": "find_under" },
+  { "keys": ["shift+ctrl+g"], "command": "find_under_prev" },
+  { "keys": ["super+ctrl+g"], "command": "find_all_under" },
+
+  /* VIM-style cursor movement */
+  { "keys": ["ctrl+h"], "command": "move", "args": {"by": "characters", "forward": false} },
+  { "keys": ["ctrl+j"], "command": "move", "args": {"by": "lines", "forward": true} },
+  { "keys": ["ctrl+k"], "command": "move", "args": {"by": "lines", "forward": false} },
+  { "keys": ["ctrl+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+
+  { "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/User/MoveDown25.sublime-macro"} },
+  { "keys": ["shift+ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/User/MoveUp25.sublime-macro"} },
+
+  { "keys": ["shift+ctrl+h"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
+  { "keys": ["shift+ctrl+j"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
+  { "keys": ["shift+ctrl+k"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
+  { "keys": ["shift+ctrl+l"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
+
+  { "keys": ["alt+up"], "command": "select_lines", "args": {"forward": false} },
+  { "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} },
+
+  { "keys": ["alt+a"], "command": "alignment" },
+
+  { "keys": ["super+g"], "command": "find_next" },
+  { "keys": ["super+shift+g"], "command": "find_prev" },
+
+  { "keys": ["alt+left"], "command": "move", "args": {"by": "words", "forward": false} },
+  { "keys": ["alt+right"], "command": "move", "args": {"by": "words", "forward": true} },
+  { "keys": ["alt+shift+left"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
+  { "keys": ["alt+shift+right"], "command": "move", "args": {"by": "words", "forward": true, "extend": true} },
+
+  { "keys": ["super+alt+v"], "command": "paste_from_history" },
+
+  {
+    "keys": ["super+1"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1]]
+    }
+  },
+  {
+    "keys": ["super+2"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  },
+  {
+    "keys": ["super+3"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.33, 0.66, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]]
+    }
+  },
+  {
+    "keys": ["super+4"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.25, 0.5, 0.75, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1], [3, 0, 4, 1]]
+    }
+  },
+
+]
